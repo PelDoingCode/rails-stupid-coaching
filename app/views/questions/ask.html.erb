@@ -1,0 +1,18 @@
+<h1>Questions#ask</h1>
+<p>Find me in app/views/questions/ask.html.erb</p>
+
+
+<h1>Stupid Coaching du sein</h1>
+
+<!--
+<%  %> = er + tab
+<%=  %> = pe + tab -->
+<h2> Ask stg to your coach !!!</h2>
+<p>The time is: <%= Time.now.strftime('%b %e, %l:%M %p') %></p>
+
+<form action="/answer" method="get">
+<!-- par default la methode c'est get dnas un form -->
+  <input type="text" name="question" placeholder="Ask a question?">
+  <input type="submit" value="Ask">
+</form>
+

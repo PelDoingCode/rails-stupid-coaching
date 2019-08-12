@@ -1,0 +1,30 @@
+<h1>Questions#answer</h1>
+<p>Find me in app/views/questions/answer.html.erb</p>
+<h1>Stupid Coaching!!!!</h1>
+
+<p>
+  <% if @question.blank? %>
+    <%= 'error, wrong question' %>
+  <% else %>
+    <%= @question %>
+  <% end %>
+</p>
+
+
+<p class="coach">
+  <p><%= @answer %></p>
+  <h2>Your coach</h2>
+</p>
+
+
+<%= link_to "Go backkkkkkkkk", ask_path %>
+
+
+
+
+
+
+
+
+
+
